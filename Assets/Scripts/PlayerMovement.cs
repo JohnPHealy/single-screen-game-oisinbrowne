@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         moveDir = context.ReadValue<float>();
+        print(moveDir);
     }
 
     public void Jump(InputAction.CallbackContext context)

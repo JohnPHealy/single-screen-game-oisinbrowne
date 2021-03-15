@@ -223,8 +223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad9014640c9a1ae4c9b500af9291fd3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
-  maxSpeed: 2
+  moveSpeed: 3
+  maxSpeed: 3
 --- !u!114 &814502426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,7 +353,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9076266076560575594, guid: 40e4ba83a17fcd0488a64ae049f13c20, type: 3}
       propertyPath: m_Constraints
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9076266076560575595, guid: 40e4ba83a17fcd0488a64ae049f13c20, type: 3}
       propertyPath: m_Name
