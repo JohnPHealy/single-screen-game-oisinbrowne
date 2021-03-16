@@ -49,5 +49,10 @@ public class PlayerMovement : MonoBehaviour
             myRB.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
             canJump = false;
         }
+
+        if(context.canceled)
+        {
+            myRB.velocity = new Vector2(myRB.velocity.x, 0f);
+        }
     }
 }
