@@ -1070,7 +1070,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5097, y: 75.270004, z: -11}
+  m_LocalPosition: {x: 2.5097, y: -1.51, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5215,7 +5215,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563756691}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5097, y: 75.270004, z: -11}
+  m_LocalPosition: {x: 2.5097, y: -1.51, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1046034988}
@@ -9638,6 +9638,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 814502425, guid: 40e4ba83a17fcd0488a64ae049f13c20, type: 3}
+      propertyPath: yTracker.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 814502425, guid: 40e4ba83a17fcd0488a64ae049f13c20, type: 3}
+      propertyPath: yTracker.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 814502425, guid: 40e4ba83a17fcd0488a64ae049f13c20, type: 3}
+      propertyPath: yTracker.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1119394509}
+    - target: {fileID: 814502425, guid: 40e4ba83a17fcd0488a64ae049f13c20, type: 3}
+      propertyPath: yTracker.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 814502425, guid: 40e4ba83a17fcd0488a64ae049f13c20, type: 3}
+      propertyPath: yTracker.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_text
+      objectReference: {fileID: 0}
+    - target: {fileID: 814502425, guid: 40e4ba83a17fcd0488a64ae049f13c20, type: 3}
+      propertyPath: yTracker.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TMPro.TMP_Text, Unity.TextMeshPro
+      objectReference: {fileID: 0}
+    - target: {fileID: 814502425, guid: 40e4ba83a17fcd0488a64ae049f13c20, type: 3}
+      propertyPath: yTracker.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 9076266076560575595, guid: 40e4ba83a17fcd0488a64ae049f13c20, type: 3}
       propertyPath: m_Name
       value: Character
@@ -9680,7 +9708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9076266076560575599, guid: 40e4ba83a17fcd0488a64ae049f13c20, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 73.48
+      value: -3.3
       objectReference: {fileID: 0}
     - target: {fileID: 9076266076560575599, guid: 40e4ba83a17fcd0488a64ae049f13c20, type: 3}
       propertyPath: m_LocalPosition.z

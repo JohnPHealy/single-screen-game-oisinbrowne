@@ -2,20 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed, maxSpeed, jumpForce;
     [SerializeField] private Collider2D groundCheck;
     [SerializeField] private LayerMask groundLayers;
+    [SerializeField] private UnityEvent<string> yTracker;
 
     private float moveDir;
-    private Rigidbody2D myRB;
+    public Rigidbody2D myRB;
     private bool canJump;
+    public float posY;
 
-    private void Start()
+    public void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
+    }
+
+    private void position()
+    {
+        posY = myRB.position.y + 3;
+        yTracker.Invoke(posY.ToString("0"));
     }
 
     private void FixedUpdate()
